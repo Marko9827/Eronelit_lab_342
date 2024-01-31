@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POPLAVA</title>
+    <meta
+      name="description"
+      content="POPLAVA"
+    />
+   
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
+  
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+ 
+
+    <div class="logo_and_title">
+      <img src="/assets/logo.png" width="80" alt="" />
+      <div>
+        <h1>CSS FIXER</h1> 
+      </div>
+    </div>
+
+    <div class="textarea-box">
+      <p class="js-version version"></p>
+
+      <textarea autofocus class="textarea textarea-left js-input"></textarea>
+
+      <pre
+        class="textarea textarea-right"
+        contenteditable=""
+      ><code class="language-css js-output"><strong>Loading...</strong></code></pre>
+    </div>
+
+    <div class="settings">
+      <div class="settings__left">
+        <form action="" class="filter js-filter">
+          <label class="filter__text">Browserslist</label>
+
+          <input
+            type="text"
+            class="filter__input js-browsers-filter"
+            placeholder="> 1%, last 2 versions"
+          />
+          <input type="submit" class="filter__apply button" value="Apply" />
+        </form>
+
+        <label class="settings__version" style="display:none;">
+          <input type="checkbox" class="js-comment" name="" checked />
+          <span> include comment with configuration to the result </span>
+        </label>
+      </div>
+      <div class="settings__right">
+        <button class="button js-select" type="button">Select result</button>
+      </div>
+    </div>
+ 
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
