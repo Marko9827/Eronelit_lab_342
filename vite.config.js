@@ -4,7 +4,7 @@ export default defineConfig({
   define: {
     "process.env": {},
   },
-  base: 'Eronelit_lab_342',
+  base: '/Eronelit_lab_342/',
   build: {
     outDir: "docs",
     rollupOptions: {
