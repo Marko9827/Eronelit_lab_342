@@ -1,9 +1,9 @@
 {
-  "name": "autoprefixer_online",
+  "name": "eronelit_lab_342",
   "version": "1.0.0",
   "main": "./src/main.js",
-  "repository": "git@github.com:autoprefixer/autoprefixer.github.io.git",
-  "author": "ymatuhin <ym@ymatuhin.ru>",
+  "repository": "git@github.com:marko9827/eronelit_lab_342",
+  "author": "marko9827",
   "license": "MIT",
   "scripts": {
     "start": "npm run build",
